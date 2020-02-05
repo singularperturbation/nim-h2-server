@@ -6,8 +6,11 @@
 # To run these tests, simply execute `nimble test`.
 
 import unittest
-import nim_h2_server
+import nim_h2_server/frame
+import streams
 
-test "can add":
-  check add(5, 5) == 10
+test "can parse frame":
+  # TODO: Get fixture data in here and actually run tests
+  assert not isNil(frame_header.get)
+  assert not isNil(frame_header.put)
 

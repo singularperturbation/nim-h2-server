@@ -11,3 +11,5 @@ srcDir        = "src"
 # Dependencies
 
 requires "nim >= 1.0.6"
+requires "hpack >= 0.2.0"
+requires "binaryparse >= 0.2.3"
